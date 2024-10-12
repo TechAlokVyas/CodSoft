@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-image: url('img/background.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: rgb(44, 156, 150);
+    padding: 10px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: rgb(27, 219, 237);
+    text-decoration: none;
+}
+
+.cta-btn {
+    background-color: #ff4500;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero-section {
+    background: url('img/background.jpg') no-repeat center center/cover;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: rgb(15, 195, 208);
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+}
+
+.hero-section .hero-btn {
+    background-color: #ff4500;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+}
+
+/* Features Section */
+.features-section {
+    padding: 50px 0;
+    background-color: white;
+}
+
+.features-section .container {
+    text-align: center;
+}
+
+.feature-box {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.feature {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+    width: 30%;
+}
+
+/* Call-to-Action Section */
+.cta-section {
+    background-color: #333;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.cta-section .cta-btn {
+    background-color: #ff4500;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: blink;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer .social a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+}
